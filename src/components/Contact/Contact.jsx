@@ -2,7 +2,6 @@ import s from "./Contact.module.css";
 import { RiContactsLine } from "react-icons/ri";
 import { BsTelephone } from "react-icons/bs";
 import Button from "@mui/material/Button";
-import  DeleteIcon  from '@mui/icons-material';
 
 const Contact = ({ name, number, onDelete }) => {
   return (
@@ -18,7 +17,6 @@ const Contact = ({ name, number, onDelete }) => {
         </span>
       </div>
       <Button
-        
         variant="contained"
         color="secondary"
         className={s.contact_btn}

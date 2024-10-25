@@ -22,7 +22,9 @@ function App() {
 
   return (
     <div className="App">
-      <h1 className="text-3xl font-bold flex justify-center">Phonebook</h1>
+      <h1 className="text-4xl font-extrabold mb-5  text-violet-700 flex justify-center">
+        Phonebook
+      </h1>
       <main>
         <ContactForm />
         <SearchBox />

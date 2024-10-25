@@ -1,5 +1,5 @@
 import s from "./ContactForm.module.css";
-
+import Button from "@mui/material/Button";
 import { Formik, Form, Field, ErrorMessage } from "formik";
 import * as Yup from "yup";
 import { useSelector, useDispatch } from "react-redux";
@@ -84,9 +84,14 @@ const ContactForm = () => {
               />
             </label>
           </div>
-          <button className="margin-left" type="submit">
+          <Button
+            className="margin-left"
+            type="submit"
+            variant="contained"
+            color="secondary"
+          >
             Add contact
-          </button>
+          </Button>
         </Form>
       </Formik>
     </div>
